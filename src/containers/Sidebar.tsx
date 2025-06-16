@@ -28,7 +28,7 @@ export default function Sidebar() {
       removeCookies(ENV.TOKEN_KEY);
       localStorage.removeItem("roles");
       localStorage.removeItem("name");
-      router.push("/login");
+      router.push("/");
     },
     onError: (error) => {
       toast.error(error.message || "Logout Gagal");

@@ -88,6 +88,15 @@ export default function Login() {
               Daftar
             </Link>
           </p>
+
+          <button
+            onClick={() => {
+              router.push("/");
+            }}
+            className="mt-6 text-sm cursor-pointer text-center opacity-70 text-blue-400 border border-blue-400 rounded-full px-4 py-2 w-full hover-outline-none hover:bg-blue-400 hover:text-white transition-colors duration-300 ease-in-out"
+          >
+            Masuk sebagai Tamu
+          </button>
         </div>
       </div>
     </div>
